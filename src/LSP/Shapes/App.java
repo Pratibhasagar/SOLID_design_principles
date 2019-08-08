@@ -6,9 +6,10 @@ public class App {
 
         final int WIDTH = 5;
 
-        Rectangle square = new Square();
-        square.setHeight(6);
-        System.out.println(square.getArea());
+        Rectangle rectangle = new Rectangle();
+        rectangle.setHeight(6);
+        rectangle.setHeight(WIDTH);
+        System.out.println(rectangle.getArea());
 
     }
 }
